@@ -1,0 +1,21 @@
+{
+    "name": "nik/todo",
+    "homepage": "https://todo.spoob.ru",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Todo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nikolay",
+            "email": "nik@spoob.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
